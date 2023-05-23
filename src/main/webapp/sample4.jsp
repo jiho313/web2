@@ -15,7 +15,7 @@
 <%
 	// 요청객체에 저장된 속성값 조회하기
 	String value1 = (String) request.getAttribute("n1");
-	
+
 	// 세션객체에 저장된 속성값 조회하기
 	//HttpSession ses = request.getSession();
 	String value2 = (String) session.getAttribute("n2");

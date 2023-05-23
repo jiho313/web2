@@ -16,8 +16,6 @@
 	<!-- 
 		웹 애플리케이션의 초기화 파라미터값을 정의
 			* 아래에 설정된 정보는 ServletContext 객체에 초기화 파라미터 값으로 저장된다.
-			
-	
 	 -->
 	<context-param>
 		<param-name>adminEmail</param-name>
@@ -31,7 +29,7 @@
 	<!-- 
 		사용자정의 서블릿 배포하기
 		
-			* app.Sample2Servlet클래스를  sample이라는 이름으로 배포한다.
+			* app.Sample2Servlet클래스를 sample이라는 이름으로 배포한다.
 			* /sample2 url 패턴의 요청 url이 접수되면 sample이라는 이름으로 배포된 서블릿을 실행한다.
 			* <init-param>은 Sample2Servlet 전용의 초기화 파라미터값을 정의한다.
 	 -->
